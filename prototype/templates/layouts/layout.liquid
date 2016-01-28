@@ -5,22 +5,15 @@
         <title>{% block title %}The Lab{% endblock %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {{ "bootstrap.css" | asset_url | stylesheet_tag }}
+        {{ "custom.css" | asset_url | stylesheet_tag }}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <style>
-            body {
-                padding-top: 50px;
-            }
-            .starter-template {
-                padding: 40px 15px;
-            }
         </style>
 
     </head>
     <body>
         {% include "navigation" %}
-        <div class="container">
-            {% block content %}{% endblock %}
-        </div>
+        {% block content %}{% endblock %}
         <script src="http://code.jquery.com/jquery.min.js"></script>
         {{ "bootstrap.js" | asset_url | script_tag }}
         {{ "holder.js" | asset_url | script_tag }}
