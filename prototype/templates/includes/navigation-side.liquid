@@ -1,0 +1,51 @@
+<div id="nav-side" class="col-sm-2 col-sm-offset-2">
+<br><br>
+  <ul class="nav nav-pills nav-stacked">
+      <li {% if mixture.url == "index" %}class="active"{% endif %}><a href="/index">Explore</a>
+        {% if (mixture.url == "index" or mixture.url == "explore/objectives" or mixture.url == "explore/vision" or mixture.url == "explore/mission") %}
+          <ul class="nav-sub list-unstyled">
+            <li><a href="/explore/objectives" {% if mixture.url == "explore/objectives" %}class="active"{% endif %}>Our 4 Objectives</a></li>
+            <li><a href="/explore/mission" {% if mixture.url == "explore/mission" %}class="active"{% endif %}>Our Mission</a></li>
+            <li><a href="/explore/vision" {% if mixture.url == "explore/vision" %}class="active"{% endif %}>Our Vision</a></li>
+
+          </ul>
+        {% endif %}
+      </li>
+      <li {% if mixture.url == "explain" %}class="active"{% endif %}><a href="/explain">Explain</a>
+        {% if (mixture.url == "explain" or mixture.url == "explain/eeg" or mixture.url == "explain/tms" or mixture.url == "explain/tdcs" or mixture.url == "explain/neuromodulation") %}
+          <ul class="nav-sub list-unstyled">
+            <li><a href="/explain/neuromodulation" {% if mixture.url == "explain/neuromodulation" %}class="active"{% endif %}>Neuromodulation</a></li>
+            <li><a href="/explain/eeg" {% if mixture.url == "explain/eeg" %}class="active"{% endif %}>EEG</a></li>
+            <li><a href="/explain/tms" {% if mixture.url == "explain/tms" %}class="active"{% endif %}>TMS</a></li>
+            <li><a href="/explain/tdcs" {% if mixture.url == "explain/tdcs" %}class="active"{% endif %}>tDCS</a></li>
+          </ul>
+        {% endif %}
+      </li>
+      <li {% if mixture.url == "examine" %}class="active"{% endif %}><a href="/examine">Examine</a>
+      {% if (mixture.url == "examine" or mixture.url == "examine/bodyelectric" or mixture.url == "examine/neuromodulation" or mixture.url == "examine/clinical" %}
+        <ul class="nav-sub list-unstyled">
+          <li><a href="/examine/bodyelectric" {% if mixture.url == "examine/bodyelectric" %}class="active"{% endif %}>Body Electric</a></li>
+          <li><a href="/examine/neuromodulation" {% if mixture.url == "examine/neuromodulation" %}class="active"{% endif %}>Neuromodulation Research</a></li>
+          <li><a href="/examine/clinical" {% if mixture.url == "examine/clinical" %}class="active"{% endif %}>Clinical Research</a></li>
+        </ul>
+      {% endif %}
+      </li>
+      <li {% if mixture.url == "educate" %}class="active"{% endif %}><a href="/educate">Educate</a>
+      {% if (mixture.url == "educate" or mixture.url == "educate/courses" or mixture.url == "educate/webinars" or mixture.url == "educate/principles" %}
+        <ul class="nav-sub list-unstyled">
+          <li><a href="/educate/courses" {% if mixture.url == "educate/courses" %}class="active"{% endif %}>Body Electric Courses</a></li>
+          <li><a href="/educate/webinars" {% if mixture.url == "educate/webinars" %}class="active"{% endif %}>Body Electric Webinars</a></li>
+          <li><a href="/educate/principles" {% if mixture.url == "educate/principles" %}class="active"{% endif %}>Principles of Clinical Research</a></li>
+        </ul>
+      {% endif %}
+      </li>
+      <li {% if mixture.url == "engage" %}class="active"{% endif %}><a href="/engage">Engage</a>
+      {% if (mixture.url == "engage" or mixture.url == "engage/connect" or mixture.url == "engage/volunteer" %}
+        <ul class="nav-sub list-unstyled">
+          <li><a href="/engage/connect" {% if mixture.url == "engage/connect" %}class="active"{% endif %}>Connect</a></li>
+          <li><a href="/engage/volunteer" {% if mixture.url == "engage/volunteer" %}class="active"{% endif %}>Volunteer</a></li>
+        </ul>
+      {% endif %}
+      </li>
+  </ul>
+</div>
