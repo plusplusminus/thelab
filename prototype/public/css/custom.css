@@ -19,9 +19,9 @@
   z-index: 99;
 }
 #nav-side {
-  position: absolute;
+  position: fixed;
   top: 14rem;
-  right: 0;
+  right: 2rem;
 }
 .nav-sub li {
   margin-left: 3rem;
@@ -34,6 +34,32 @@
   background-color: transparent;
   padding-top: 0;
   padding-bottom: 0;
+  padding-left: 0 !important;
+}
+.jumbotron h1 {
+  font-size: 5rem;
+}
+.jumbotron h1 small {
+  line-height: 1rem;
+  font-size: 35%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.jumbotron h2 {
+  font-size: 3rem;
+}
+.panel-heading {
+  text-transform: uppercase;
+}
+.panel-body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 13rem;
+}
+.panel-body h2 {
+  margin-top: 0px;
+  font-size: 2.2rem;
 }
 #footer {
   z-index: 9999;
@@ -47,16 +73,6 @@
 .page-text {
   background-color: #fff;
   padding: 4rem;
-}
-#index {
-  background: url(../images/bg_index.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
 }
 .page-footer-nav {
   position: absolute;
@@ -75,18 +91,18 @@
   background-color: transparent;
   border-bottom: none;
 }
-#mission {
-  background: url(../images/bg_mission.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
 }
-#vision {
-  background: url(../images/bg_vision.jpg) top left no-repeat;
+.bg-image img {
+  width: 100%;
+}
+#index {
+  background: url(../images/bg_index.jpg) center center no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
@@ -96,14 +112,8 @@
   padding-top: 10rem;
 }
 #objectives {
-  background: url(../images/bg_mission.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #explain {
   background: url(../images/bg_explain.jpg) center center no-repeat;
@@ -116,14 +126,8 @@
   padding-top: 10rem;
 }
 #neuromodulation {
-  background: url(../images/bg_neuromodulation.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #examine {
   background: url(../images/bg_examine.jpg) center center no-repeat;
@@ -136,54 +140,8 @@
   padding-top: 10rem;
 }
 #bodyelectric {
-  background: url(../images/bg_bodyelectric.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
-}
-#examine-neuromodulation {
-  background: url(../images/bg_examine-neuromodulation.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#engage {
-  background: url(../images/bg_engage.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#connect {
-  background: url(../images/bg_connect.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#volunteer {
-  background: url(../images/bg_volunteer.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #educate {
   background: url(../images/bg_educate.jpg) center center no-repeat;
@@ -196,7 +154,25 @@
   padding-top: 10rem;
 }
 #courses {
-  background: url(../images/bg_courses.jpg) center center no-repeat;
+  padding-top: 10rem;
+  margin-bottom: 10rem;
+}
+#engage {
+  background: url(../images/bg_engage.jpg) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  z-index: 9;
+  padding-top: 10rem;
+}
+#connect {
+  padding-top: 10rem;
+  margin-bottom: 10rem;
+}
+#contact {
+  background: #ccc;
   background-size: cover;
   position: absolute;
   width: 100%;
