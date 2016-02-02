@@ -539,7 +539,7 @@
 			"file": "prototype/templates/layouts/layout.liquid",
 			"settings":
 			{
-				"buffer_size": 773,
+				"buffer_size": 1186,
 				"line_ending": "Unix"
 			}
 		}
@@ -1171,7 +1171,7 @@
 						"translation.y": 3498.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1200,7 +1200,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1220,15 +1220,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 773,
+						"buffer_size": 1186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								773,
-								773
+								501,
+								501
 							]
 						],
 						"settings":
@@ -1242,7 +1242,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1288,7 +1288,7 @@
 		"cols":
 		[
 			0.0,
-			0.954669084316,
+			0.177534281505,
 			1.0
 		],
 		"rows":
@@ -1421,7 +1421,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 3,
 	"settings":
 	{
 	},
