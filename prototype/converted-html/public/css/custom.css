@@ -74,16 +74,6 @@
   background-color: #fff;
   padding: 4rem;
 }
-#index {
-  background: url(../images/bg_index.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
 .page-footer-nav {
   position: absolute;
   bottom: 3rem;
@@ -101,18 +91,18 @@
   background-color: transparent;
   border-bottom: none;
 }
-#mission {
-  background: url(../images/bg_mission.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
 }
-#vision {
-  background: url(../images/bg_vision.jpg) top left no-repeat;
+.bg-image img {
+  width: 100%;
+}
+#index {
+  background: url(../images/bg_index.jpg) center center no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
@@ -122,14 +112,8 @@
   padding-top: 10rem;
 }
 #objectives {
-  background: url(../images/bg_mission.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #explain {
   background: url(../images/bg_explain.jpg) center center no-repeat;
@@ -142,14 +126,8 @@
   padding-top: 10rem;
 }
 #neuromodulation {
-  background: url(../images/bg_neuromodulation.jpg) top left no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #examine {
   background: url(../images/bg_examine.jpg) center center no-repeat;
@@ -162,54 +140,8 @@
   padding-top: 10rem;
 }
 #bodyelectric {
-  background: url(../images/bg_bodyelectric.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
   padding-top: 10rem;
-}
-#examine-neuromodulation {
-  background: url(../images/bg_examine-neuromodulation.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#engage {
-  background: url(../images/bg_engage.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#connect {
-  background: url(../images/bg_connect.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
-}
-#volunteer {
-  background: url(../images/bg_volunteer.jpg) center center no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 9;
-  padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #educate {
   background: url(../images/bg_educate.jpg) center center no-repeat;
@@ -222,7 +154,11 @@
   padding-top: 10rem;
 }
 #courses {
-  background: url(../images/bg_courses.jpg) center center no-repeat;
+  padding-top: 10rem;
+  margin-bottom: 10rem;
+}
+#engage {
+  background: url(../images/bg_engage.jpg) center center no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
@@ -230,6 +166,10 @@
   bottom: 0;
   z-index: 9;
   padding-top: 10rem;
+}
+#connect {
+  padding-top: 10rem;
+  margin-bottom: 10rem;
 }
 #contact {
   background: #ccc;
