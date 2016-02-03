@@ -26,8 +26,11 @@
     <body>
         {% include "navigation" %}
         {% block content %}{% endblock %}
+
+        <!-- Scripts -->
         <script src="http://code.jquery.com/jquery.min.js"></script>
         {{ "bootstrap.js" | asset_url | script_tag }}
         {{ "holder.js" | asset_url | script_tag }}
+        {{ "custom.js" | asset_url | script_tag }}
     </body>
 </html>
