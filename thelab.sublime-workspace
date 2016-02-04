@@ -520,18 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "prototype/templates/index.liquid",
+			"file": "prototype/templates/includes/navigation-side.liquid",
 			"settings":
 			{
-				"buffer_size": 1209,
+				"buffer_size": 2902,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/contact.liquid",
+			"file": "prototype/templates/engage/connect.liquid",
 			"settings":
 			{
-				"buffer_size": 437,
+				"buffer_size": 1673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prototype/templates/educate/courses.liquid",
+			"settings":
+			{
+				"buffer_size": 18214,
 				"line_ending": "Unix"
 			}
 		},
@@ -552,18 +560,45 @@
 			}
 		},
 		{
-			"file": "prototype/templates/explore/objectives.liquid",
+			"file": "prototype/templates/explain.liquid",
 			"settings":
 			{
-				"buffer_size": 3279,
+				"buffer_size": 1287,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/includes/navigation-side.liquid",
+			"file": "prototype/templates/includes/explain-page-footer-nav.liquid",
 			"settings":
 			{
-				"buffer_size": 2783,
+				"buffer_size": 1392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prototype/templates/explain/neuromodulation.liquid",
+			"settings":
+			{
+				"buffer_size": 7496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% block content %}\n<div id=\"objectives\" class=\"wrapper\">\n	<div class=\"bg-image\">	\n		<img src=\"../public/images/bg_mission.jpg\" class=\"img-responsive\">\n	</div>\n	<a id=\"top\"></a>\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-sm-9\">\n				<div class=\"jumbotron\">\n					<h1>Our Goals</h1>\n					<blockquote>\n						<p>“Your connections to all the things around you literally define who you are.”</p>\n						<cite>Aaron D. O’Connell <small>Quantum Physicist</small></cite>\n					</blockquote>\n				</div>\n			</div>\n			\n			{% include \"navigation-side\" %}\n\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-8 page-text lead\">\n				<ul>\n					<li>Traverse the entire bioelectric landscape of the body to impact on the research of non-invasive neuromodulation stimulation. </li>\n					<li>Aid in the development of practical clinical treatments for those with mental disorders. </li>\n					<li>Educate, train and promote clinical based research.</li>\n					<li>Collaborate on the inherent possibilities of the Body Electric transformational potential.</li>\n				</ul>\n			</div>\n		</div>\n	</div>\n\n	<a id=\"mission\"></a>\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-sm-9\">\n				<div class=\"jumbotron\">\n					<h1><small>Our Mission</small><br>We believe in a<br>better* body &amp; mind.</h1>\n					<blockquote>\n						<p>“My message, especially to young people is to have courage to think differently, courage to invent, to travel the unexplored path, courage to discover the impossible and to conquer the problems and succeed.”</p>\n						<cite>A. P. J. Abdul Kalam <small>Scientist</small></cite>\n					</blockquote>\n				</div>\n			</div>\n\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-8 page-text\">\n				<p class=\"lead\">The Labuschagne Foundation is proud to partner with the Spaulding Neuromodulation Center for the rigorous scientific exploration that will lead to new discoveries to improve body and mind.</p>\n				<p>It will open access to transformational therapies for anyone pursuing a healthier life.</p>\n				<p>With our support the growing understanding of the Body Electric’s power to harness natural recovery, healing and transformation will unveil possibilities for an even greater body and mind.</p>\n				<hr>\n				<p>*<em>DEFINITION</em> &mdash; <strong>BETTER:</strong> Improved in health or mental attitude. <cite>Merriam Webster</cite>\n			</div>\n		</div>\n	</div>\n\n	<a id=\"vision\"></a>\n	<div class=\"container\">\n		<div class=\"row\">\n			<div class=\"col-sm-9\">\n				<div class=\"jumbotron\">\n					<h1><small>Our Vision</small><br>What do we mean when we say, Think Outside the Brain.</h1>\n					<blockquote>\n						<p>“I didn't discover curves; I only uncovered them.”</p>\n						<cite>Mae West</cite>\n					</blockquote>\n				</div>\n\n			</div>\n\n		</div>\n		<div class=\"row\">\n			<div class=\"col-sm-8 page-text\">\n				<p class=\"lead\">The Center’s purpose is to get better at something that matters, our bioelectric selves.</p>\n				<p>Our approach integrates brain and body wellness. It is not restricted to prevention or treatment but encompasses overall health and performance.</p>\n				<p>Our vision is the advancement of understanding the total plasticity of the self without a physical-mental distinction.</p>\n			</div>\n		</div>\n	</div>\n\n</div>\n\n{% include \"footer\" %}\n{% endblock %}",
+			"file": "prototype/templates/explore/objectives.liquid",
+			"file_size": 3297,
+			"file_write_time": 130989127550000000,
+			"settings":
+			{
+				"buffer_size": 3296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prototype/public/js/custom.js",
+			"settings":
+			{
+				"buffer_size": 467,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +606,7 @@
 			"file": "prototype/templates/layouts/layout.liquid",
 			"settings":
 			{
-				"buffer_size": 1186,
+				"buffer_size": 1263,
 				"line_ending": "Unix"
 			}
 		}
@@ -638,6 +673,7 @@
 		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap",
 		"/Users/iaanvn/Sites/thelab/prototype/public",
 		"/Users/iaanvn/Sites/thelab/prototype/public/css",
+		"/Users/iaanvn/Sites/thelab/prototype/public/js",
 		"/Users/iaanvn/Sites/thelab/prototype/public/less",
 		"/Users/iaanvn/Sites/thelab/prototype/templates",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate",
@@ -650,8 +686,12 @@
 	],
 	"file_history":
 	[
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/bodyelectric.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/index.liquid",
+		"/Users/iaanvn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/objectives.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/courses.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/engage/connect.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/explore-page-footer-nav.liquid",
@@ -659,9 +699,7 @@
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/examine-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/explain-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/engage-page-footer-nav.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/vision.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/objectives.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/mission.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/eeg.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/neuromodulation.liquid",
@@ -673,7 +711,6 @@
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/clinical.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/webinars.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/principles.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/index.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/engage.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine.liquid",
@@ -776,12 +813,11 @@
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/page/section-hero.php",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/gulpfile.js",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/post/culture_item-content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/single-post.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/news/content-feed.php"
+		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/single-post.php"
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -923,6 +959,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"neuromodulation",
 			"clini",
 			"Footer | Contact | Privacy Policy",
 			"ol",
@@ -1049,8 +1086,7 @@
 			"icon",
 			"icomoon",
 			"title",
-			"link-",
-			"cmb2_get_your_post_type_post_options"
+			"link-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1167,33 +1203,34 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "prototype/templates/index.liquid",
+					"file": "prototype/templates/includes/navigation-side.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1209,
+						"buffer_size": 2902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1062,
-								1062
+								2756,
+								2756
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 401.0,
+						"translation.y": 769.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1201,19 +1238,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "prototype/templates/contact.liquid",
-					"semi_transient": true,
+					"file": "prototype/templates/engage/connect.liquid",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 437,
+						"buffer_size": 1673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								176,
+								176
 							]
 						],
 						"settings":
@@ -1225,7 +1262,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "prototype/templates/educate/courses.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1235,7 +1301,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "prototype/public/less/custom.less",
 					"semi_transient": false,
 					"settings":
@@ -1262,11 +1328,11 @@
 						"translation.y": 3498.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "prototype/bower_components/bootstrap/less/variables.less",
 					"semi_transient": false,
 					"settings":
@@ -1291,6 +1357,161 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "prototype/templates/explain.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "prototype/templates/includes/explain-page-footer-nav.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "prototype/templates/explain/neuromodulation.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "prototype/templates/explore/objectives.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "prototype/public/js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 6,
 					"type": "text"
 				}
@@ -1301,85 +1522,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
-					"file": "prototype/templates/explore/objectives.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3205,
-								3205
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1742.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "prototype/templates/includes/navigation-side.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								378,
-								378
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "prototype/templates/layouts/layout.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1186,
+						"buffer_size": 1263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								501,
-								501
+								950,
+								950
 							]
 						],
 						"settings":
@@ -1390,10 +1546,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2369.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1439,13 +1595,13 @@
 		"cols":
 		[
 			0.0,
-			0.618405768359,
+			0.837350549637,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.479564262856,
+			0.491914533133,
 			1.0
 		]
 	},
@@ -1572,7 +1728,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 	},

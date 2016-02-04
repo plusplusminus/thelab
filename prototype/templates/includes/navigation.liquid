@@ -1,10 +1,15 @@
-<div class="navbar-header navbar navbar-fixed-top">
-    <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/"><h4>Spaulding-Laubuschagne Neuromodulation Center</h4></a>
-    </div>
-</div>
+{% if (mixture.url == "index") %}
+{% else %}
+	<div class="navbar-header navbar navbar-fixed-top">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-md-6">
+	        		<a class="navbar-brand" href="/"><img src="../public/images/logo.png" class="img-responsive"></a>
+	        	</div>
+	        	<div class="col-md-6">
+	        		<a class="navbar-brand pull-right" href="http://hms.harvard.edu/" target="_blank"><img src="../public/images/harvard.png" class="img-responsive"></a>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
+{% endif %}
