@@ -528,14 +528,6 @@
 			}
 		},
 		{
-			"file": "prototype/templates/explain/neuromodulation.liquid",
-			"settings":
-			{
-				"buffer_size": 9235,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "prototype/public/less/custom.less",
 			"settings":
 			{
@@ -564,6 +556,14 @@
 			"settings":
 			{
 				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "prototype/templates/index.liquid",
+			"settings":
+			{
+				"buffer_size": 1664,
 				"line_ending": "Unix"
 			}
 		},
@@ -651,13 +651,13 @@
 	],
 	"file_history":
 	[
+		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/index.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/objectives.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/engage/connect.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/courses.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explain.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate.liquid",
@@ -1184,8 +1184,8 @@
 						"selection":
 						[
 							[
-								403,
-								403
+								526,
+								526
 							]
 						],
 						"settings":
@@ -1199,35 +1199,6 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "prototype/templates/explain/neuromodulation.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2056,
-								2056
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 566.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		},
@@ -1236,7 +1207,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "prototype/public/less/custom.less",
 					"semi_transient": false,
 					"settings":
@@ -1267,7 +1238,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "prototype/bower_components/bootstrap/less/variables.less",
 					"semi_transient": false,
 					"settings":
@@ -1298,11 +1269,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "prototype/templates/includes/navigation-side.liquid",
 					"semi_transient": false,
 					"settings":
@@ -1332,7 +1303,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "prototype/templates/includes/navigation.liquid",
 					"semi_transient": false,
 					"settings":
@@ -1344,8 +1315,38 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "prototype/templates/index.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								945,
+								945
 							]
 						],
 						"settings":
@@ -1354,7 +1355,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 100.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1446,7 +1447,7 @@
 		"rows":
 		[
 			0.0,
-			0.676282411571,
+			0.14755455724,
 			1.0
 		]
 	},
