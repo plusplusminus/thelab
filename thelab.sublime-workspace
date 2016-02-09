@@ -520,18 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "prototype/templates/examine/bodyelectric.liquid",
+			"file": "prototype/templates/educate/courses.liquid",
 			"settings":
 			{
-				"buffer_size": 6299,
+				"buffer_size": 16185,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/includes/navigation-side.liquid",
+			"file": "prototype/templates/engage/connect.liquid",
 			"settings":
 			{
-				"buffer_size": 3046,
+				"buffer_size": 5749,
 				"line_ending": "Unix"
 			}
 		},
@@ -552,18 +552,18 @@
 			}
 		},
 		{
-			"file": "prototype/templates/includes/navigation.liquid",
+			"file": "prototype/templates/includes/navigation-side.liquid",
 			"settings":
 			{
-				"buffer_size": 600,
+				"buffer_size": 3044,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/examine.liquid",
+			"file": "prototype/templates/includes/educate-page-footer-nav.liquid",
 			"settings":
 			{
-				"buffer_size": 590,
+				"buffer_size": 1552,
 				"line_ending": "Unix"
 			}
 		},
@@ -636,6 +636,7 @@
 		"/Users/iaanvn/Sites/thelab/prototype",
 		"/Users/iaanvn/Sites/thelab/prototype/bower_components",
 		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap",
+		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap/js",
 		"/Users/iaanvn/Sites/thelab/prototype/public",
 		"/Users/iaanvn/Sites/thelab/prototype/public/css",
 		"/Users/iaanvn/Sites/thelab/prototype/public/js",
@@ -651,21 +652,21 @@
 	],
 	"file_history":
 	[
-		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/examine-page-footer-nav.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/engage.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/engage/connect.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/bodyelectric.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/examine.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/examine-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explain.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/index.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/objectives.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/courses.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/examine.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/engage.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/public/js/custom.js",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/explain-page-footer-nav.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/bodyelectric.liquid",
 		"/Users/iaanvn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/explore-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/educate-page-footer-nav.liquid",
@@ -924,6 +925,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transi",
 			"nav",
 			"neuromodulation",
 			"clini",
@@ -1050,8 +1052,7 @@
 			"FAQ",
 			"assets",
 			"icon",
-			"icomoon",
-			"title"
+			"icomoon"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1173,19 +1174,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "prototype/templates/examine/bodyelectric.liquid",
+					"file": "prototype/templates/educate/courses.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6299,
+						"buffer_size": 16185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6236,
-								6236
+								13629,
+								13629
 							]
 						],
 						"settings":
@@ -1194,10 +1195,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2590.0,
+						"translation.y": 5679.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "prototype/templates/engage/connect.liquid",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1206,36 +1236,6 @@
 			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "prototype/templates/includes/navigation-side.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3046,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1878,
-								1878
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1176.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
 				{
 					"buffer": 2,
 					"file": "prototype/public/less/custom.less",
@@ -1261,7 +1261,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3463.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1304,58 +1304,59 @@
 			[
 				{
 					"buffer": 4,
-					"file": "prototype/templates/includes/navigation.liquid",
+					"file": "prototype/templates/includes/navigation-side.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 600,
+						"buffer_size": 3044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								1383,
+								1383
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 466.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "prototype/templates/examine.liquid",
+					"file": "prototype/templates/includes/educate-page-footer-nav.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 590,
+						"buffer_size": 1552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								433,
-								433
+								516,
+								516
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1392,7 +1393,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 916.0,
+						"translation.y": 649.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -1441,13 +1442,13 @@
 		"cols":
 		[
 			0.0,
-			0.83984965566,
+			0.835590455513,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.925373134328,
+			0.696358589067,
 			1.0
 		]
 	},
