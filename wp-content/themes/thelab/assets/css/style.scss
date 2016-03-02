@@ -1,0 +1,64 @@
+/*!
+Theme Name: The Lab
+Theme URI: https://github.com/plusplusminus/thelab/
+Author: Iaan van Niekerk
+Author URI: http://www.plusplusminus.co.za
+Description: TheLab 
+Version: 1.0.0
+*/
+
+/* ----------------------------------------------------------------------------
+ * Mixins & Variables
+ * ------------------------------------------------------------------------- */
+@import "partials/variables";
+$enable-flex:true;
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+@import "partials/mixins";
+@import "utilities/extends";
+/* ----------------------------------------------------------------------------
+ * Normalize & Santize
+ * ------------------------------------------------------------------------- */
+@import "vendor/normalize";
+@import "vendor/sanitize";
+@import "vendor/slider";
+@import "vendor/fullpage";
+
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+@import "partials/structure";
+
+/* WPCore */
+@import "partials/wpcore";
+
+
+
+/* ----------------------------------------------------------------------------
+ * Layout
+ * ------------------------------------------------------------------------- */
+@import "layout/pagenav";
+@import "layout/pagehead";
+@import "layout/sitefooter";
+@import "layout/page/general";
+@import "layout/parent/hero";
+@import "layout/page/pagecontent";
+
+
+/* ----------------------------------------------------------------------------
+ * Modules
+ * ------------------------------------------------------------------------- */
+@import "module/pagenav";
+@import "module/sitefooter";
+@import "module/header";
+@import "module/gravity";
+@import "module/modals";
+@import "module/parent/hero";
+@import "module/page/pagecontent";
+@import "module/sidebar";
+@import "module/page-intro";
+@import "module/loader";
+
+/* ----------------------------------------------------------------------------
+ * Fonts
+ * ------------------------------------------------------------------------- */
+@import "fonts/_thelab";

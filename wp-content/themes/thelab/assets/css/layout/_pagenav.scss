@@ -1,0 +1,33 @@
+.page-nav{
+	@include make-row(0);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	@include m(single) {
+		bottom: -200px;
+		.nav-block{
+			@include make-col-span(12);
+		}
+	}
+}
+
+.nav-block{
+	z-index: 999;
+	@include make-col(0);
+	@include make-col-span(12);
+	@include media-breakpoint-up(xl) {
+		.nav-block--col-2 &{
+			@include make-col-span(6);
+		}
+		.nav-block--col-3 &{
+			@include make-col-span(4);
+		}
+		.nav-block--col-4 &{
+			@include make-col-span(3);
+		}
+	}
+	@include m(row) {
+		@include make-row(0);
+	}
+}

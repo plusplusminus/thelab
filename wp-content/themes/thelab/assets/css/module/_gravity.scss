@@ -1,0 +1,126 @@
+
+body{
+	.gform_wrapper{
+		.gform_heading{
+			margin-bottom: 2rem;
+			.gform_title{
+				font-size: $font-size-xl;
+				font-weight: 100;
+				margin-bottom: 2rem;
+			}
+			.gform_description{
+				font-weight: 100;
+			}
+		}
+		.gform_body{
+			.gform_fields{
+				.gfield{
+					margin-bottom: 20px;
+					&.gsection{
+						border: none;
+						.gsection_title{
+							font-family: $font-family-sans-serif;
+							text-transform: uppercase;
+							letter-spacing: 0.1em !important;
+							border-bottom: $border-width solid $gray-border;
+							font-size: $font-size-sm;
+							padding-bottom: 0.5rem !important;
+						}
+						.gsection_description{
+							font-weight: 600;
+							font-family: $font-family-sans-serif;
+							border: none;
+							letter-spacing: 0.1em;
+							padding-bottom: 0;
+						}
+					}
+					.gfield_label {
+						font-weight: 100;
+					}
+					input[type=text],
+					textarea,
+					select{
+						padding: 0.5rem;
+						border-radius: 0.3rem;
+						border: $border-width solid $gray-border;
+						transition: 0.3s;
+						&:active,
+						&:focus,
+						&:hover{
+							outline: none;
+							border-color: $gray-dark;
+						}
+					}
+					.ginput_complex{
+						label{
+							font-family: $font-family-sans-serif;
+							text-transform: uppercase;
+							font-size: $font-size-sm;
+							font-weight: 500;
+							color: $gray;
+							letter-spacing: 0.1em;
+						}
+					}
+					.gfield_checkbox{
+						li{
+							label{
+								line-height: 1;
+							}
+							input[type=checkbox] {
+								margin: 0;
+								height: 1.2rem;
+								appearance: checkbox;
+								-webkit-appearance: checkbox;
+								-moz-appearance: checkbox;
+								&:checked+label{
+									font-weight: 500;
+								}
+							}
+						}
+					}
+					.gfield_radio{
+						li{
+							label{
+								line-height: 1;
+							}
+							input[type=radio] {
+								margin: 0;
+								height: 1.2rem;
+								appearance: checkbox;
+								-webkit-appearance: checkbox;
+								-moz-appearance: checkbox;
+								&:checked+label{
+									font-weight: 500;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.gform_footer{
+			padding-top: 1rem;
+			margin: 0;
+			input[type=submit]{
+				@extend %btn;
+				@extend %btn-primary;
+				&:hover{
+
+				}
+			}
+
+		}
+		div.validation_error{
+			border: none;
+		}
+	}
+}
+
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.has_middle_name.no_last_name span,
+.gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span,
+.gform_wrapper .ginput_complex.ginput_container.no_first_name.has_middle_name.has_last_name span{
+	width: 100% !important;
+	@include media-breakpoint-up(sm) {
+		width: 48.5% !important;
+	}
+}

@@ -1,0 +1,25 @@
+.hero{
+	@include m(row) {	
+		@include make-row();
+	}
+}
+
+.main{
+	@include make-col();
+	@include make-col-span(8);
+}
+
+.fp-tableCell{
+	vertical-align: top;
+	padding-top: 10rem;
+	@include media-breakpoint-up(xl) {
+		vertical-align: middle;
+		padding-top: 0;
+	}
+	.container{
+		max-width: 100%;
+		@include media-breakpoint-up(xl) {
+			max-width: 1140px;
+		}
+	}
+}

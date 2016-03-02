@@ -1,0 +1,119 @@
+.site-footer{
+	background: $brand-bg;
+	@include e(nav) {
+		.nav-items{
+			padding: 0;
+			list-style: none;
+			margin: 0;
+			float: none;
+			text-align: center;
+			@include media-breakpoint-up(md) {
+				float: left;
+				text-align: left;
+			}
+			@include e(item) {
+				display: inline-block;
+				border-top: ($border-width * 5) solid $default;
+				font-family: $font-family-serif;
+				font-size: 1rem;
+				transition: 0.3s;
+				@include media-breakpoint-up(sm) {
+					font-size: 1.2rem;
+				}
+				
+				@include m(contact) {
+					border-top-color: $default;
+				}
+				@include m(donate) {
+					border-top-color: $default;
+				}
+				@include m(privacy) {
+					border-top-color: $default;
+				}
+				&:first-child{
+					border-top-color: $default;
+				}
+				&:last-child{
+					border-top-color: $default;
+				}
+				@include m(link) {
+					padding: 2rem 0.5rem;
+					display: inline-block;
+					color: rgba(255,255,255,0.8);
+					transition: 0.3s;
+					@include media-breakpoint-up(lg) {
+						padding: 2rem;
+					}
+				}
+				&:hover,
+				&:active,
+				&:focus{
+					border-top-color: $brand-bg;
+					outline: none;
+					a{
+						color: rgba(255,255,255,1);
+						text-decoration: none;
+						&:hover,
+						&:active,
+						&:focus{
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	@include e(legal) {
+		float: none;
+		padding: 0 2.2rem;
+		text-align: center;
+		@include media-breakpoint-up(lg) {
+			padding: 2.2rem;
+		}
+		@include media-breakpoint-up(lg) {
+			float: right;
+			text-align: right;
+		}
+		@include m(text) {
+			color: #6a7e99;
+			font-size: $font-size-xs;
+			font-family: $font-family-sans-serif;
+			text-align: center;
+			margin-bottom: 0;
+			display: inline-block;
+			@include media-breakpoint-up(lg) {
+				text-align: right;
+			}
+		}
+		.nav-items{
+			display: inline-block;
+			float: none;
+			padding-left: 0;
+			text-align: center;
+			margin-top: 1rem;
+			@include media-breakpoint-up(lg) {
+				float: right;
+				padding-left: 1rem;
+				text-align: left;
+				margin-top: 0;
+			}
+			@include e(item) {
+				padding: 0 0.5rem;
+				display: inline;
+				list-style: none;
+				@include m(link) {
+					color: $brand-bg;
+					transition: 0.3s;
+					&:before{
+						vertical-align: middle;
+					}
+					&:hover{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+

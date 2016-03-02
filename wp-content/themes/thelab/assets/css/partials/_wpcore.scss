@@ -1,0 +1,179 @@
+/*------------------------------------*\
+    WORDPRESS CORE
+
+\*------------------------------------*/
+// Exceptions
+
+// .page-id-27 Resources
+// .page-id-37 CME
+
+.alignnone {
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px 20px 20px 20px;
+    }
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0 auto;
+    @include media-breakpoint-up(sm) {
+        margin: 5px auto 5px auto;
+    }
+}
+
+.alignright {
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px -20% 20px 20px;
+        float: right;
+    }
+}
+
+.alignleft { 
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px 20px 20px -20%;
+        float: left;
+    }
+}
+
+a img.alignright {
+    float: right;
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px -20% 20px 20px;
+    }
+    .page-id-27 &,
+    .page-id-37 .cme-partners &{
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+            margin: 5px 20px 20px 20px;
+        }
+    }
+}
+
+a img.alignnone {
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px 20px 20px 20px;
+    }
+}
+
+a img.alignleft {
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+        margin: 5px 20px 20px -20%;
+        float: left;
+    }
+    .page-id-27 &,
+    .page-id-37 .cme-partners &{
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+            margin: 5px 20px 20px 20px;
+        }
+    }
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: transparent;
+    max-width: 100%;
+    text-align: center;
+    &.alignnone {
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+            margin: 5px 20px 20px 20px;
+        }
+    }
+    &.alignleft {
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+            margin: 5px 20px 20px -20%;
+        }
+        .page-id-27 &,
+        .page-id-37 .cme-partners &{
+            margin: 0;
+            @include media-breakpoint-up(sm) {
+                margin: 5px 20px 20px 20px;
+            }
+        }
+    }
+    &.alignright {
+        margin: 0;
+        @include media-breakpoint-up(sm) {
+            margin: 5px -20% 20px 20px;
+        }
+        .page-id-27 &,
+        .page-id-37 .cme-partners &{
+            margin: 0;
+            @include media-breakpoint-up(sm) {
+                margin: 5px 20px 20px 20px;
+            }
+        }
+    }
+    img{
+        border: 0 none;
+        height: auto;
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        width: auto;
+    }
+    .wp-caption-text{
+        font-family: $font-family-serif;
+        color: $gray-lighter;
+        font-size: $font-size-sm;
+    }
+}
+
+
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    margin: 0;
+    padding: 0.5rem 0 2rem;
+}
+.textwidget img{
+    margin: 1rem 0;
+}
+
+.sticky {
+}
+
+.bypostauthor {
+    background: inherit;
+}
+
+/* ----------------------------------------------------------------------------
+ * Recommended sizes
+ * ------------------------------------------------------------------------- */
+ .size-auto,
+ .size-full,
+ .size-large,
+ .size-medium,
+ .size-thumbnail {
+    max-width: 100%;
+    height: auto;
+ }
+
+/* ----------------------------------------------------------------------------
+ * Responsive
+ * ------------------------------------------------------------------------- */
+.wp-caption .wp-caption-text,
+.gallery-caption{
+
+     @include r(240)  { }
+     @include r(320)  { }
+     @include r(480)  { }
+     @include r(768)  { }
+     @include r(1024) {}
+     @include r(1280) {}
+
+ }

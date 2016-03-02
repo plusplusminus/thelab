@@ -1,0 +1,86 @@
+#sidebar {
+	display: none;
+    @include media-breakpoint-up(lg) {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    height: 100vh;
+	    width: auto;
+	    position: fixed;
+	    right: 0;
+	    z-index: 100;
+	    top: 0;
+	    padding-right: 1rem;
+    }
+}
+
+#sidebar .nav{
+	top: 0;
+	position: relative;
+	z-index: 100;
+	right: 1rem;
+	text-align: right;
+	> li{
+		padding-right: 1rem;
+		text-transform: uppercase;
+		font-weight: 500;
+		margin-bottom: 0.5rem;
+		font-family: $font-family-sans-serif;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		transition: 0.3s;
+		&.active{
+			border:0 $default solid;
+			border-right-width:1px;
+			> a{
+				color: $default;
+				text-decoration: none;
+				transition: 0.3s;
+				&:hover,
+				&:active,
+				&:focus{
+					cursor: default;
+					text-decoration: none;
+				}
+			}
+		}
+		a{
+			color: #fff;
+			transition: 0.3s;
+			&:hover{
+				color: $default;
+				text-decoration: none;
+			}
+		
+		}
+		.sub-nav {
+			display: none;
+			transition: 0.3s;
+		    li{
+				list-style: none;
+				text-transform: none;
+				font-weight: 100;
+				
+				a{
+					color: #fff;
+					transition: 0.3s;
+					&:hover{
+						color: $default;
+						text-decoration: none;
+					}
+					&.active{
+						border:0 $default solid;
+						color: $default;
+						text-decoration: none;
+					}
+				}
+		    }
+		}
+	}
+}
+
+
+/* show sub menu when parent is active */
+#sidebar .nav>.active>ul {
+	display: block;
+}

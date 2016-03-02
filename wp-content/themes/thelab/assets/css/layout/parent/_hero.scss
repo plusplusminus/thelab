@@ -1,0 +1,17 @@
+.hero{
+	@include e(heading) {
+		@include m(title) {
+		}
+	}
+	@include e(row) {
+		@include make-row();
+	}
+}
+
+.main{
+	@include make-col(0);
+	@include make-col-span(12);
+	@include media-breakpoint-up(xl) {
+		@include make-col-span(8);
+	}
+}

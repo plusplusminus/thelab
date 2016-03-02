@@ -1,0 +1,39 @@
+.page-content{
+	@include e(entry) {
+		z-index: 999;
+	}
+}
+.post-content{
+	padding: 0 0 4rem;
+	@extend %content-m-60-100;
+	text-align: left;
+	@include e(entry) {
+		padding-bottom: 2rem;
+	}
+}
+
+.post-content,
+.page-content{
+	@include e(pagination) {
+		width: 100%;
+		position: relative;
+		@include m(btn) {
+			&.btn-next{
+				float: none;
+				width: 100%;
+				@include media-breakpoint-up(sm) {
+					float: right;
+					width: initial;
+				}
+			}
+			&.btn-previous{
+				float: none;
+				width: 100%;
+				@include media-breakpoint-up(sm) {
+					float: left;
+					width: initial;
+				}
+			}
+		}
+	}
+}

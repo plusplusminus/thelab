@@ -1,0 +1,135 @@
+.hero{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	@include e(heading) {
+		text-align: left;
+		z-index: 1;
+		padding: 0 1.25em;
+		@include media-breakpoint-up(sm) {
+			top: 50%;
+		}
+		@include m(subline) {
+			color: #fff;
+			padding: 0 0 0.6em;
+			margin: 0 auto;
+			font-style: italic;
+			font-weight: 100;
+		}
+		@include m(title) {
+			font-size: $font-size-lg;
+			font-family: $font-family-sans-serif;
+			color: #fff;
+			text-transform: uppercase;
+			margin: 0 0 2rem 0;
+			font-weight: 100;
+			@extend %text-shadow--heading;
+			@include media-breakpoint-up(md) {
+				font-size: $font-size-xl;
+			}
+			@include media-breakpoint-up(xl) {
+				font-size: $font-size-xxl;
+			}
+			strong{
+				font-weight: 700;
+			}
+			p{
+				margin-bottom: 0;
+			}
+		}
+	}
+	@include e(content) {
+		padding: 0 1.25em;
+		display: none;
+		@include media-breakpoint-up(lg) {
+			display: block;
+		}
+	}
+	@include e(btn) {
+		@extend %btn;
+		@extend %btn-primary;
+	}
+}
+
+.page-head{
+	text-align: center;
+	@extend %content-m-60-100;
+	@include e(image) {
+		margin-bottom: 2rem;
+		@include m(img) {
+			display: block;
+			margin: auto;
+		}
+	}
+}
+
+.page-header{
+	@include m(subtitle) {
+		display: inline-block;
+		text-transform: uppercase;
+		color: $gray;
+		font-family: $font-family-sans-serif;
+		font-size: $font-size-sm;
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		margin: 2rem 0;
+	}
+	@include m(intro) {
+		font-size: $font-size-xl;
+		font-weight: 100;
+		line-height: 2.8rem;
+		em{
+			color: $default;
+		}
+		strong{
+			font-weight: 400;
+		}
+		a{
+			@extend %link-border;
+		}
+		blockquote{
+			p{
+				color: $default;
+				font-family: $font-family-serif;
+				font-size: 2.5rem;
+				cite{
+					text-transform: uppercase;
+					color: $gray-dark;
+					font-family: $font-family-sans-serif;
+					text-align: center;
+					font-style: normal;
+					font-weight: 600;
+					font-size: $font-size-base;
+					letter-spacing: 0.1em;
+					display: block;
+					@include media-breakpoint-up(md) {
+						text-align: right;
+					}
+				}
+			}
+		}
+	}
+	@include m(details) {
+		@extend .page-content__entry;
+		margin-top: 3rem; 
+		p{
+			margin-bottom: 0!important;
+		}
+	}
+	@include m(caption) {
+		display: block;
+		max-width: 90%;
+		margin: auto;
+		text-align: center;
+		@include media-breakpoint-up(md) {
+			max-width: 30%;
+		}
+		p{
+			font-family: $font-family-serif;	
+			color: $gray-dark;
+		}
+		
+	}
+
+}

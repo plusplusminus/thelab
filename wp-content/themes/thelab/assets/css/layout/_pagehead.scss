@@ -1,0 +1,17 @@
+.page-head{
+	padding: 0;
+	@include media-breakpoint-up(sm) {
+		padding: 4rem 0;
+	}
+}
+
+.page-header{
+	padding-bottom: 2rem;
+}
+.post-head{
+	.post-header{
+		@extend %content-m-60-100;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+}

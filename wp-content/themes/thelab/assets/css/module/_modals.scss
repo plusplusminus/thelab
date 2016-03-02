@@ -1,0 +1,9 @@
+.modal-header{
+	border: none;
+	padding-bottom: 0;
+}
+.modal-content{
+	border-radius: 0;
+	border-width: ($border-width * 2);
+	font-size: $font-size-body;
+}

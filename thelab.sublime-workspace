@@ -4,44 +4,80 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
 				"pad",
 				"padding"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"bac",
-				"background-position"
-			],
-			[
 				"fon",
-				"font-size"
+				"font-family"
 			],
 			[
-				"te",
-				"text-transform"
+				"collapse_cta_",
+				"collapse_cta_label"
 			],
 			[
-				"pa",
-				"padding"
+				"bor",
+				"border"
 			],
 			[
 				"ba",
 				"background-color"
 			],
 			[
-				"bo",
-				"bottom"
+				"pa",
+				"padding"
 			],
 			[
-				"font-s",
-				"font-size"
+				"hero_slide_",
+				"hero_slide_btn_url"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-position"
 			],
 			[
 				"font-",
-				"font-family-regular"
+				"font-weight"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"font-s",
+				"font-size-lg"
+			],
+			[
+				"bo",
+				"bottom"
 			],
 			[
 				"ma",
@@ -53,10 +89,6 @@
 			],
 			[
 				"fon-",
-				"font-size"
-			],
-			[
-				"font",
 				"font-size"
 			],
 			[
@@ -86,14 +118,6 @@
 			[
 				"pr",
 				"print_r"
-			],
-			[
-				"list",
-				"list-style"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"re",
@@ -134,14 +158,6 @@
 			[
 				"de",
 				"default-btn"
-			],
-			[
-				"bor",
-				"border-bottom"
-			],
-			[
-				"border-r",
-				"border-radius"
 			],
 			[
 				"p",
@@ -344,10 +360,6 @@
 				"color"
 			],
 			[
-				"c",
-				"cursor"
-			],
-			[
 				"lin",
 				"line-height"
 			],
@@ -502,68 +514,152 @@
 			[
 				"font-fal",
 				"font-family-bold"
-			],
-			[
-				"pd",
-				"padding"
-			],
-			[
-				"gfor",
-				"gform_footer"
-			],
-			[
-				"gform_b",
-				"gform_body"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "prototype/templates/examine/bodyelectric.liquid",
+			"file": "wp-content/themes/thelab/assets/css/module/page-intro.scss",
 			"settings":
 			{
-				"buffer_size": 6260,
+				"buffer_size": 4626,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/public/less/custom.less",
+			"file": "wp-content/themes/thelab/assets/css/layout/page/_pagecontent.scss",
 			"settings":
 			{
-				"buffer_size": 3277,
+				"buffer_size": 592,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/bower_components/bootstrap/less/variables.less",
+			"file": "wp-content/themes/thelab/assets/css/module/_sidebar.scss",
 			"settings":
 			{
-				"buffer_size": 26779,
+				"buffer_size": 1358,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/includes/navigation-side.liquid",
+			"file": "wp-content/themes/thelab/assets/css/module/_loader.scss",
 			"settings":
 			{
-				"buffer_size": 3045,
+				"buffer_size": 1157,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/examine.liquid",
+			"file": "wp-content/themes/thelab/assets/css/module/_pagenav.scss",
 			"settings":
 			{
-				"buffer_size": 590,
+				"buffer_size": 970,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "prototype/templates/layouts/layout.liquid",
+			"file": "wp-content/themes/thelab/assets/css/module/_header.scss",
 			"settings":
 			{
-				"buffer_size": 1263,
+				"buffer_size": 1851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/layout/_pagenav.scss",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/layout/parent/_hero.scss",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/style.scss",
+			"settings":
+			{
+				"buffer_size": 2062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/utilities/_extends.scss",
+			"settings":
+			{
+				"buffer_size": 4945,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/fonts/_thelab.scss",
+			"settings":
+			{
+				"buffer_size": 1658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/module/_sitefooter.scss",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/template-home.php",
+			"settings":
+			{
+				"buffer_size": 4076,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/footer.php",
+			"settings":
+			{
+				"buffer_size": 287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/templates/module/section-sidebar-home.php",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 8075,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/bower_components/ev-emitter/README.md",
+			"settings":
+			{
+				"buffer_size": 2094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/js/custom/custom.js",
+			"settings":
+			{
+				"buffer_size": 6986,
 				"line_ending": "Unix"
 			}
 		}
@@ -625,40 +721,91 @@
 	"expanded_folders":
 	[
 		"/Users/iaanvn/Sites/thelab",
-		"/Users/iaanvn/Sites/thelab/prototype",
-		"/Users/iaanvn/Sites/thelab/prototype/bower_components",
-		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap",
-		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap/js",
-		"/Users/iaanvn/Sites/thelab/prototype/public",
-		"/Users/iaanvn/Sites/thelab/prototype/public/css",
-		"/Users/iaanvn/Sites/thelab/prototype/public/js",
-		"/Users/iaanvn/Sites/thelab/prototype/public/less",
-		"/Users/iaanvn/Sites/thelab/prototype/templates",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/educate",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/engage",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/examine",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explain",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explore",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/includes",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/layouts"
+		"/Users/iaanvn/Sites/thelab/wp-content",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/bower_components",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/bower_components/ev-emitter",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/bower_components/imagesloaded",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/page",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/parent",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/page",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/parent",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/custom",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/library",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/home",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/parent"
 	],
 	"file_history":
 	[
-		"/Users/iaanvn/Sites/thelab/prototype/templates/engage.liquid",
+		"/Users/iaanvn/Sites/thelab/wp-content/plugins/wp-owl-carousel/CMB2/languages/cmb2-lt_LT.po",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/header.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/parent/content.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/page/content.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/footer.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/template-parent.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/custom/custom.js",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/gulpfile.js",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/library/bones.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/custom.js",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_pagenav.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/template-child.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/page/_pagecontent.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions/admin-functions.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/functions.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/partials/_wpcore.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/partials/_variables.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/library/option-config.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar-home.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/page/_general.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/parent/_hero.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/page/_pagecontent.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_sidebar.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions/thelab-functions.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/vendor/page-intro.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-pagenav-inline.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/parent/_hero.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/vendors.js",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/page/section-hero.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/child/content.php",
+		"/Users/iaanvn/Sites/thelab/wp-config.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/vendor/fullpage.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_header.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_sitefooter.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_pagehead.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_modals.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_gravity.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_forms.scss",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/_pagehead.scss",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/courses.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/layouts/layout.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/public/less/custom.less",
+		"/Users/iaanvn/Sites/thelab/prototype/bower_components/bootstrap/less/variables.less",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/style.css",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/bower.json",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/package.json",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/bodyelectric.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/engage/connect.liquid",
+		"/Users/iaanvn/Sites/thelab/prototype/templates/engage.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/engage-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/courses.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/educate-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/examine/bodyelectric.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/examine.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/examine-page-footer-nav.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explain.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/explain/neuromodulation.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/index.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/explore/objectives.liquid",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/navigation-side.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/public/js/custom.js",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/includes/explain-page-footer-nav.liquid",
 		"/Users/iaanvn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -675,8 +822,6 @@
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/webinars.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/templates/educate/principles.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/public/less/variables.less",
-		"/Users/iaanvn/Sites/thelab/prototype/public/less/custom.less",
-		"/Users/iaanvn/Sites/thelab/prototype/templates/layouts/layout.liquid",
 		"/Users/iaanvn/Sites/thelab/prototype/public/css/custom.scss",
 		"/Users/iaanvn/Library/Caches/Cleanup At Startup/Transmit/5B5B60A9-1EF6-49A1-A2F2-72892096C236/style.css",
 		"/Users/iaanvn/Desktop/The Lab",
@@ -727,51 +872,7 @@
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-kids-news-type/content.php",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-culture-type/content-feed.php",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/culture/content-feed.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-culture-type/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/culture/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/taxonomy-culture-type.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/functions.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/community-news/content-feed.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-community-news-type/content-feed.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-community-news-type/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/functions/admin-functions.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/template-news.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/community-news/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/taxonomy-community-news-type.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-config.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-community-news-type/archive-header.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-culture-type/feed-block.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-culture-type/archive-header.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_pagenav.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_pagehead.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/layout/page/_pagecontent.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/page/_pagecontent.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/layout/_pagenav.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_theme.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/layout/feed/_feed.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/template-culture.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/news/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/layout/_pagehead.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/parent/_hero.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/section-footercta.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/functions/menu-functions.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/post/post-content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/post/culture_item-header.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/post/post-header.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/section-pagenav-inline.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/news/feed-block.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/template-child.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/section-pagehead.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/page/content.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/js/custom.js",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_gravity.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_sitefooter.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/partials/_wpcore.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/assets/css/module/_header.scss",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/page/section-hero.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/gulpfile.js",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/post/culture_item-content.php"
+		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-culture-type/content.php"
 	],
 	"find":
 	{
@@ -782,6 +883,11 @@
 		"height": 203.0,
 		"where_history":
 		[
+			"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab",
+			"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css",
+			"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates",
+			"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab",
+			"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css",
 			"/Users/iaanvn/Sites/thelab/prototype/templates",
 			"/Users/iaanvn/Sites/asbd/wp-content",
 			"/Users/iaanvn/Sites/asbd/wp-content/themes/asbd",
@@ -904,12 +1010,7 @@
 			"/Users/iaanvn/Sites/retutpro/wp-content/themes/bootstrap",
 			"/Users/iaanvn/Sites/retutpro/wp-content/themes/",
 			"/Users/iaanvn/Sites/retutpro/wp-content/themes/retutpro",
-			"/Users/iaanvn/Sites/retutpro/",
-			"/Users/iaanvn/Sites/retutpro/wp-content/themes",
-			"/Users/iaanvn/Sites/retutpro/wp-content/themes/bootstrap",
-			"/Users/iaanvn/Sites/retutpro/wp-content/themes",
-			"/Users/iaanvn/Sites/retutpro/wp-content/themes/bootstrap",
-			"/Users/iaanvn/Sites/retutpro/wp-content/plugins/woocommerce"
+			"/Users/iaanvn/Sites/retutpro/"
 		]
 	},
 	"find_state":
@@ -917,6 +1018,91 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scrollTop",
+			"14",
+			"sectionExplore",
+			"imagesloaded",
+			"classie",
+			"trigger",
+			"custom.js",
+			"wp_footer",
+			"custom.js",
+			"border-right-width",
+			"active",
+			"border:0 $default solid;\n						border-right-width:1px;\n					}",
+			"active",
+			"jquer",
+			"bower",
+			"nav-link",
+			"content__entry",
+			"70%",
+			"while",
+			"hero",
+			"70px",
+			"160",
+			"jlfoundation",
+			"panel",
+			"$count",
+			"home_nav_title_1",
+			"60%",
+			"content__entry",
+			"hero",
+			"js-equal",
+			"stron",
+			"active",
+			"subline",
+			"200px",
+			"site_logo",
+			"prefix",
+			"jlfoundation",
+			"child_nav_pagination",
+			"not",
+			"content",
+			"#f8ebda",
+			"title",
+			"h1",
+			"sub",
+			"(2)",
+			"opacity",
+			"title",
+			"font",
+			".container",
+			".title",
+			"after",
+			".content-header__bg",
+			"scrollspy",
+			"container",
+			"backgroun",
+			"title",
+			"300",
+			".content",
+			".content ",
+			"before",
+			"after",
+			"bg",
+			"modify",
+			"right",
+			"left",
+			"right",
+			"container",
+			"header",
+			"header ",
+			"content-header",
+			"content",
+			"img",
+			".bg-img",
+			"bg-img",
+			"header",
+			"jlfoundation",
+			"foun",
+			"jlfoundation",
+			"ain-nav",
+			"$brand",
+			"brand",
+			"brand-bg",
+			"TMS",
+			"devoted",
+			"eeg",
 			"</p>",
 			"transi",
 			"nav",
@@ -959,92 +1145,7 @@
 			"41",
 			"kids",
 			"terms_cat-icon",
-			"term_icon",
-			"em",
-			"child_page_menu",
-			"blockq",
-			"page-header--intro",
-			"child_page_intro",
-			"37",
-			".nav-block__image--btn",
-			"icon",
-			"chil",
-			"sticky",
-			"$silo-bg",
-			"silo-bg",
-			"theme",
-			"header",
-			"taxonomy_register_taxonomy_metabox",
-			"cmb_id_culture",
-			"wp-caption-text",
-			"caption",
-			"Site White Logo",
-			"menu",
-			"icon",
-			"cmb_id_home",
-			"hero",
-			"6a7e99",
-			"h2",
-			"Helvetica Neue",
-			"Helvetica",
-			"paddin",
-			"prefix",
-			"$_",
-			"kvd",
-			"$kvd",
-			"redux/options/singita",
-			"singita",
-			"link",
-			"selec",
-			"170px",
-			"link_1_text",
-			"show_on",
-			"home",
-			"group",
-			"<td height=\"1\">",
-			"</b",
-			"<td><b>",
-			"<tr valign=\"TOP\">",
-			"width=\"",
-			"fib",
-			"beautiful lodg",
-			"kvd_about_slider",
-			"easing",
-			"product-contain",
-			"woocommerce-pagination",
-			"#acco",
-			".slide-prev",
-			"carou",
-			"enumenu_ul.desk ul",
-			"enumenu.desk",
-			"enum",
-			"footer_icon_text",
-			"footer_link2",
-			"footer_link_1",
-			"$kvd['meet_page']",
-			"rd",
-			"brand_page",
-			"Select Meet Page",
-			"varia",
-			"th",
-			"fbfbfa",
-			"modal",
-			"modal-lg",
-			"content-de",
-			"focus",
-			"kvd_sh",
-			"\">\n",
-			"visually-hidden",
-			"faq",
-			"head",
-			"icon",
-			"panel",
-			"meet",
-			"get_child_meet",
-			"meet",
-			"FAQ",
-			"assets",
-			"icon"
+			"term_icon"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1052,6 +1153,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"thelab",
+			".page-container",
+			"before",
+			".content-header__bg",
+			"thelab",
 			"{% include \"footer\" %}",
 			"li",
 			"images",
@@ -1161,65 +1267,30 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "prototype/templates/examine/bodyelectric.liquid",
+					"file": "wp-content/themes/thelab/assets/css/module/page-intro.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6260,
+						"buffer_size": 4626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6245,
-								6245
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3252.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "prototype/public/less/custom.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3115,
-								3115
+								146,
+								146
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1227,81 +1298,324 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "prototype/bower_components/bootstrap/less/variables.less",
+					"buffer": 1,
+					"file": "wp-content/themes/thelab/assets/css/layout/page/_pagecontent.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26779,
+						"buffer_size": 592,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13873,
-								13873
+								51,
+								51
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7875.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 15,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "prototype/templates/includes/navigation-side.liquid",
+					"buffer": 2,
+					"file": "wp-content/themes/thelab/assets/css/module/_sidebar.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3045,
+						"buffer_size": 1358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2369,
-								2369
+								1209,
+								1209
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 803.0,
+						"translation.y": 866.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/thelab/assets/css/module/_loader.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "prototype/templates/examine.liquid",
+					"file": "wp-content/themes/thelab/assets/css/module/_pagenav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								410
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 283.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/thelab/assets/css/module/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/thelab/assets/css/layout/_pagenav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "wp-content/themes/thelab/assets/css/layout/parent/_hero.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/thelab/assets/css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1866,
+								1866
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 509.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "wp-content/themes/thelab/assets/css/utilities/_extends.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "wp-content/themes/thelab/assets/css/fonts/_thelab.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1158,
+								1158
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "wp-content/themes/thelab/assets/css/module/_sitefooter.scss",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 590,
+						"buffer_size": 2305,
 						"regions":
 						{
 						},
@@ -1314,14 +1628,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -1331,34 +1646,189 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "prototype/templates/layouts/layout.liquid",
+					"buffer": 12,
+					"file": "wp-content/themes/thelab/template-home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1263,
+						"buffer_size": 4076,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								950,
-								950
+								285,
+								285
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 146.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "wp-content/themes/thelab/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "wp-content/themes/thelab/templates/module/section-sidebar-home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "wp-content/themes/thelab/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4547,
+								4547
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2111.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "wp-content/themes/thelab/assets/bower_components/ev-emitter/README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1984,
+								1964
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "wp-content/themes/thelab/assets/js/custom/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6447,
+								6447
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 649.0,
+						"translation.y": 3776.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1404,13 +1874,13 @@
 		"cols":
 		[
 			0.0,
-			0.835590455513,
+			0.197991779868,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.485761542049,
+			0.126972756691,
 			1.0
 		]
 	},
@@ -1537,7 +2007,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 3,
 	"settings":
 	{
 	},
@@ -1545,7 +2015,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 337.0,
+	"side_bar_width": 351.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

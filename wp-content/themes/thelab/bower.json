@@ -1,0 +1,23 @@
+{
+  "name": "The Lab",
+  "version": "0.0.1",
+  "homepage": "https://github.com/plusplusminus/Starter",
+  "authors": [
+    "Sergio Pellegrini <sergio@plusplusminus.co.za>"
+  ],
+  "description": "The Lab",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tether": "~1.1.1",
+    "waypoints": "~4.0.0",
+    "classie": "~1.0.1",
+    "imagesloaded": "^4.1.0"
+  }
+}
