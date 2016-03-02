@@ -19,6 +19,16 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Bugherd -->
+	<script type='text/javascript'>
+	(function (d, t) {
+	  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+	  bh.type = 'text/javascript';
+	  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=vcqxkmagxupqxpte2brq1w';
+	  s.parentNode.insertBefore(bh, s);
+	  })(document, 'script');
+	</script>
     
     <?php wp_head(); ?>
     
