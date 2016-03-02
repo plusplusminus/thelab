@@ -72,7 +72,7 @@ jQuery('html, body').hide();
 
 jQuery(document).ready(function()
 {
-    jQuery('a[href^=#]').bind("click", jump);
+    jQuery('.page-parent a[href^=#]').on("click", jump);
 
     if (location.hash){
         setTimeout(function(){

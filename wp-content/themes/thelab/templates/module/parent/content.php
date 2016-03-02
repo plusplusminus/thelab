@@ -118,18 +118,27 @@
 
 				<?php $pagination = $thelab_theme->child_nav_pagination(); ?>
 
+				<?php
+					$page_id = get_post_meta($post->ID,'_thelab_home_next_id',1);
+					$page_data = get_page( $page_id );
+					$title = $page_data->post_title;
+					$link = get_permalink($page_data);
+					$excerpt = get_post_meta($page_id,'_thelab_home_hero_text',1);
+					$image = wp_get_attachment_image_src( get_post_thumbnail_id( $page_data->ID ), 'index-post-thumbnail-large' );
+				?>
+
 				<?php if (!empty( $pagination['next']) ): ?>
 
 					<div class="page-nav page-nav--single">
 
-						<div class="nav-block" style="background-image: url('http://localhost/thelab/wp-content/uploads/2016/02/explore.jpeg');">
+						<div class="nav-block" style="background-image: url('<?php echo $image[0]; ?>')">
 							<div class="nav-block__content">
 								<div class="nav-block__header">
-									<h4 class="nav-block--title"><?php echo get_the_title($pagination['next']);?></h4>
-									<p class="nav-block--text">Text preview for the next page. <i class="icon icon-arrow-long-right"></i></p>
+									<h4 class="nav-block--title"><?php echo $title;?></h4>
+									<p class="nav-block--text"><?php echo $excerpt;?> <i class="icon icon-arrow-long-right"></i></p>
 								</div>
 							</div><!--./nav-block__content-->
-							<a href="<?php echo get_permalink($pagination['next']);?>" class="nav-block--link"></a>
+							<a href="<?php echo $link; ?>" class="nav-block--link"></a>
 
 						</div><!--/.nab-block-->	
 

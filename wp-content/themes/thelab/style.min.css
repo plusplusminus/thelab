@@ -668,8 +668,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}.wp-caption{b
 .nav-block{position:relative;background-repeat:no-repeat;background-size:cover;background-position:top left;background:rgba(0,0,0,0.75);-webkit-transition:.3s;transition:.3s;margin-top:2px}
 .nav-block .icon{opacity:0;margin-top:.5rem;-webkit-transition:.3s;transition:.3s}
 .nav-block:hover{background:rgba(0,0,0,0.95)}.nav-block:hover .icon{opacity:1;margin-left:1rem}
-.nav-block__content{padding:1rem}.nav-block__header{position:relative}.nav-block--title{margin-bottom:2rem;font-size:1rem;color:#fff;font-weight:100;font-style:italic;margin-bottom:0}
+.nav-block__content{padding:1rem;-webkit-transition:.3s;transition:.3s;background:transparent}
+.nav-block__header{position:relative}.nav-block--title{margin-bottom:2rem;font-size:1rem;color:#fff;font-weight:100;font-style:italic;margin-bottom:0}
 .nav-block--text{font-family:"freight-display-pro",sans-serif;font-size:1rem;color:#fff;line-height:1;display:none}
+.page-nav--single .nav-block:hover .nav-block__content{background:rgba(0,0,0,0.75)}
 .site-footer{background:#fff}.site-footer__nav .nav-items{padding:0;list-style:none;margin:0;float:none;text-align:center}
 .site-footer__nav .nav-items__item{display:inline-block;border-top:5px solid #f26f37;font-family:"freight-display-pro",sans-serif;font-size:1rem;-webkit-transition:.3s;transition:.3s}
 .site-footer__nav .nav-items__item--contact{border-top-color:#f26f37}.site-footer__nav .nav-items__item--donate{border-top-color:#f26f37}
@@ -792,7 +794,7 @@ button.trigger:focus{outline:0}.bounce{-webkit-animation:bounce 2s infinite;anim
 #loader-wrapper .loader-section .loader-content .hero__heading--subline{color:#333;padding:0 0 .6em;margin:0 auto;font-style:italic;font-weight:100}
 .loaded #loader-wrapper .loader-section .loader-content{opacity:0;-webkit-transition:all 1s ease-out;transition:all 1s ease-out}
 .loaded #loader-wrapper .loader-section{-webkit-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1);transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1)}
-.loading{max-width:25px;max-height:25px;display:inline-block;-webkit-animation:roll 2s infinite;animation:roll 2s infinite;-webkit-transform:rotate(-30deg);transform:rotate(-30deg)}
+.loading{max-width:25px;max-height:25px;display:inline-block;-webkit-animation:roll 2s infinite;animation:roll 2s infinite;-webkit-transform:rotate(-30deg);transform:rotate(-30deg);margin-top:2rem}
 @font-face{font-family:"thelab";src:url("assets/css/fonts/thelab/thelab.eot");src:url("assets/css/fonts/thelab/thelab.eot?#iefix") format("embedded-opentype"),url("assets/css/fonts/thelab/thelab.woff") format("woff"),url("assets/css/fonts/thelab/thelab.ttf") format("truetype"),url("assets/css/fonts/thelab/thelab.svg#thelab") format("svg");font-weight:normal;font-style:normal}
 [data-icon]:before{font-family:"thelab" !important;content:attr(data-icon);font-style:normal !important;font-weight:normal !important;font-variant:normal !important;text-transform:none !important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;vertical-align:bottom}
 [class^="icon-"]:before,[class*=" icon-"]:before{font-family:"thelab" !important;font-style:normal !important;font-weight:normal !important;font-variant:normal !important;text-transform:none !important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;vertical-align:bottom}

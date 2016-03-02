@@ -84,7 +84,7 @@ class thelabTheme {
     		$children = get_pages( array(
 				'sort_column' => 'menu_order',
 				'sort_order'  => 'asc',
-				'child_of'	  => $post->ID
+				'post__in' => array(12,14,10,8,5)
 			) );
 			$pages = array(  );
 			foreach( $children as $page )
@@ -103,7 +103,7 @@ class thelabTheme {
 			$children = get_pages( array(
 						'sort_column' => 'menu_order',
 						'sort_order'  => 'ASC',
-						'child_of'	  => $parent
+						'post__in' => array(12,14,10,8,5)
 						) );
 			
 			$pages = array( $parent );

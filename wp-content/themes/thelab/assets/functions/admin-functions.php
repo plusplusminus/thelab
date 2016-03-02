@@ -440,6 +440,12 @@ class ckCustomPostTypes {
 	 		'type'       => 'text',
 	 	) );
 
+	 	$home_page_meta->add_field( array(
+	 		'name'       => __( 'ID of footer link', 'cmb2' ),
+	 		'id'         => $prefix . 'home_next_id',
+	 		'type'       => 'text',
+	 	) );
+
 	 	$page_meta = new_cmb2_box( array(
 			'id'            => $prefix . 'page_meta',
 			'title'         => __( 'General Page Options', 'cmb2' ),

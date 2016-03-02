@@ -41,6 +41,8 @@
 	}
 	@include e(content) {
 		padding: 1rem;
+		transition: 0.3s;
+		background: transparent;
 		@include media-breakpoint-up(xl) {
 			padding: 2rem 3rem;
 		}
@@ -78,4 +80,9 @@
 		@extend %abs-link;
 	}
 
+}
+
+// Silo page footer hover
+.page-nav--single .nav-block:hover .nav-block__content{
+	background: rgba(0,0,0,0.75);
 }
