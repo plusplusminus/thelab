@@ -24,7 +24,7 @@
 			text-transform: uppercase;
 			margin: 0 0 2rem 0;
 			font-weight: 100;
-			@extend %text-shadow--heading;
+			// @extend %text-shadow--heading;
 			@include media-breakpoint-up(md) {
 				font-size: $font-size-xl;
 			}

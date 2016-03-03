@@ -34,17 +34,17 @@
       <li data-menuanchor="asection-12">
       	<a href="#asection-12">Educate</a>
       	<ul class="sub-nav">
-      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/explain#section-78">Our Courses</a></li>
-      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/explain#section-80">Body Electric Webinars</a></li>
-      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/explain#section-123">Clinical Research Global Project</a></li>
+      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/educate#section-78">Our Courses</a></li>
+      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/educate#section-80">Body Electric Webinars</a></li>
+      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/educate#section-123">Clinical Research Global Project</a></li>
       	</ul>
       </li>
 
       <li data-menuanchor="asection-14">
       	<a href="#asection-14">Engage</a>
       	<ul class="sub-nav">
-      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/explain#section-89">Our Connections</a></li>
-      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/explain#section-92">Volunteer</a></li>
+      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/engage#section-89">Our Connections</a></li>
+      	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/engage#section-92">Volunteer</a></li>
       	</ul>
       </li>
 
