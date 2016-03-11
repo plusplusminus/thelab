@@ -773,7 +773,7 @@ button.trigger:focus{outline:0}.bounce{-webkit-animation:bounce 2s infinite;anim
 .intro-effect-sidefixed .bg-img::after{background:#fff;top:0;left:0;height:100%;width:100%;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
 .intro-effect-sidefixed.modify .bg-img::after{-webkit-transform:translateX(0);transform:translateX(0)}
 .intro-effect-sidefixed .bg-img::before{width:100%;height:100%;background-color:rgba(247,214,169,0.1)}
-.intro-effect-sidefixed.modify .bg-img::before{background-color:rgba(255,255,255,0.5)}
+.intro-effect-sidefixed.modify .bg-img::before{background-color:rgba(0,0,0,0.75)}
 .intro-effect-sidefixed .title{position:relative;top:auto;left:auto;text-align:left;-webkit-transform:translateY(150px);transform:translateY(150px)}
 .intro-effect-sidefixed.modify .title{-webkit-transform:translateY(150px);transform:translateY(150px)}
 .intro-effect-sidefixed.modify .title h1{color:#4c4f53}.intro-effect-sidefixed .title .hero__heading--title{margin-bottom:6rem}
