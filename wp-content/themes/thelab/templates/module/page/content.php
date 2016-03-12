@@ -23,6 +23,7 @@
 				<a href="<?php echo get_permalink($pagination['next']);?>" class="page-content__pagination--btn btn-next"><?php echo get_the_title($pagination['next']);?> <i class="icon icon-arrow-long-right"></i></a>
 			<?php endif; ?>
 			<div class="clearfix"></div>
+			
 		</div>
 
 	<?php endif; ?>

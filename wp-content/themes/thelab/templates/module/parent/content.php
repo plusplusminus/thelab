@@ -142,6 +142,8 @@
 
 						</div><!--/.nab-block-->	
 
+						<?php get_template_part('templates/module/parent/content','footer'); ?>
+
 					</div><!--/.page-nav-->
 
 				<?php endif; ?>

@@ -101,8 +101,16 @@ global $post;
 								</div><!--/.nab-block-->
 
 							<?php } ?>
+
 						</div><!--/.page-nav-->
+
 					</div><!--/.container-fluid-->
+
+					<?php $sectionid = get_the_ID(); ?>
+					<?php if( $sectionid == 14){
+						get_template_part('templates/module/parent/content','footer');
+					}?>
+
 				</div><!--/.section-->
 			<?php }
 		} else {

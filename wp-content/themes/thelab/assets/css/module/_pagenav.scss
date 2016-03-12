@@ -1,4 +1,11 @@
 .page-nav{
+	#section-14 &{
+		bottom: 7.5rem;
+		
+		@include media-breakpoint-up(md) {
+			bottom: 4.55rem;
+		}
+	}
 }
 .nav-block{
 	position: relative;

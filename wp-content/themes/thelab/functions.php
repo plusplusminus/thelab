@@ -119,22 +119,16 @@ function child_sections($sections){
                 'desc' => __('Enter your Facebook URL', 'thelab'),
             ),  
             array(
-                'id'=>'social_instagram',
+                'id'=>'social_linkedin',
                 'type' => 'text',
-                'title' => __('Instagram', 'thelab'),
-                'desc' => __('Enter your Instagram URL', 'thelab'),
+                'title' => __('LinkedIn', 'thelab'),
+                'desc' => __('Enter your LinkedIn URL', 'thelab'),
             ),  
-            array(
-                'id'=>'social_pinterest',
-                'type' => 'text',
-                'title' => __('Pinterest', 'thelab'),
-                'desc' => __('Enter your Pinterest URL', 'thelab'),
-            ),
             array(
                 'id'=>'social_youtube',
                 'type' => 'text',
-                'title' => __('You Tube', 'thelab'),
-                'desc' => __('Enter your You Tube URL', 'thelab'),
+                'title' => __('YouTube', 'thelab'),
+                'desc' => __('Enter your YouTube URL', 'thelab'),
             ),
         )
     );

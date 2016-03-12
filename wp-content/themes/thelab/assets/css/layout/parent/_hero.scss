@@ -5,6 +5,8 @@
 	}
 	@include e(row) {
 		@include make-row();
+		position: relative;
+		z-index: 5;
 	}
 }
 
