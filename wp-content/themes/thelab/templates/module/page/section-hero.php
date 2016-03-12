@@ -2,7 +2,7 @@
 
 <?php $hero_text = get_post_meta($post->ID,'_jlfoundation_parent_hero_text',1); ?>
 
-<header class="hero hero--foundation">
+<header class="hero">
 	<div class="hero__image">
 		<?php the_post_thumbnail('full',array('class'=>'img-responsive')); ?>
 	</div>
@@ -12,6 +12,5 @@
 			<h1 class="hero__heading--title"><?php echo wpautop($hero_text) ?></h1>
 		</div>
 	<?php endif; ?>
-	
-	<div class="hero--pattern"></div>
+
 </header>

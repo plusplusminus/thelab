@@ -9,7 +9,6 @@ get_header();
 
 <?php get_template_part('templates/module/post/post','content'); ?>
 
-<?php get_template_part('templates/module/page/footer'); ?>
 
 </main>
 

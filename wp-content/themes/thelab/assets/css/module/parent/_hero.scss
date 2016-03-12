@@ -1,3 +1,7 @@
+.hero__single{
+	margin-top: 10rem;
+	padding: 1rem;
+}
 .hero{
 	background-size: cover;
 	background-position: center center;
@@ -25,6 +29,9 @@
 			margin: 0 0 2rem 0;
 			font-weight: 100;
 			// @extend %text-shadow--heading;
+			.hero__single &{
+				color: #000;
+			}
 			@include media-breakpoint-up(md) {
 				font-size: $font-size-xl;
 			}
