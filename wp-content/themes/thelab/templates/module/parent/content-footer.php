@@ -47,7 +47,7 @@
 				<?php endif; ?>
 				<?php if(!empty($social_instagram)): ?>
 				<li class="nav-items__item">
-					<a href="<?php echo $social_instagram; ?>" target="_blank" class="nav-items__item--link"><i class="icon icon-instagram-square"></i></a>
+					<a href="<?php echo $social_instagram; ?>" target="_blank" class="nav-items__item--link"><i class="icon icon-instagram"></i></a>
 				</li>
 				<?php endif; ?>
 			</ul>
