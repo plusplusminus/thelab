@@ -4,6 +4,7 @@
 <?php $social_twitter = $thelab['social_twitter']; ?>
 <?php $social_linkedin = $thelab['social_linkedin']; ?>
 <?php $social_youtube = $thelab['social_youtube']; ?>
+<?php $social_instagram = $thelab['social_instagram']; ?>
 
 <div class="single-footer">
 	<div class="single-footer__row">
@@ -42,6 +43,11 @@
 				<?php if(!empty($social_youtube)): ?>
 				<li class="nav-items__item">
 					<a href="<?php echo $social_youtube; ?>" target="_blank" class="nav-items__item--link"><i class="icon icon-youtube-square"></i></a>
+				</li>
+				<?php endif; ?>
+				<?php if(!empty($social_instagram)): ?>
+				<li class="nav-items__item">
+					<a href="<?php echo $social_instagram; ?>" target="_blank" class="nav-items__item--link"><i class="icon icon-instagram-square"></i></a>
 				</li>
 				<?php endif; ?>
 			</ul>

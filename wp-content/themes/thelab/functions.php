@@ -130,6 +130,12 @@ function child_sections($sections){
                 'title' => __('YouTube', 'thelab'),
                 'desc' => __('Enter your YouTube URL', 'thelab'),
             ),
+            array(
+                'id'=>'social_instagram',
+                'type' => 'text',
+                'title' => __('Instagram', 'thelab'),
+                'desc' => __('Enter your Instagram URL', 'thelab'),
+            ),
         )
     );
 
