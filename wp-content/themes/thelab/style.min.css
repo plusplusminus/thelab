@@ -647,9 +647,9 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}.wp-caption{b
 .wp-caption.alignnone{margin:0}.wp-caption.alignleft{margin:0}.page-id-27 .wp-caption.alignleft,.page-id-37 .cme-partners .wp-caption.alignleft{margin:0}
 .wp-caption.alignright{margin:0}.page-id-27 .wp-caption.alignright,.page-id-37 .cme-partners .wp-caption.alignright{margin:0}
 .wp-caption img{border:0 none;height:auto;margin:0;max-width:100%;padding:0;width:auto}
-.wp-caption .wp-caption-text{font-family:"freight-display-pro",sans-serif;color:#b0bec5;font-size:.75rem}
-.wp-caption .wp-caption-text,.gallery-caption{margin:0;padding:.5rem 0 2rem}.textwidget img{margin:1rem 0}
-.bypostauthor{background:inherit}.size-auto,.size-full,.size-large,.size-medium,.size-thumbnail{max-width:100%;height:auto}
+.wp-caption .wp-caption-text{font-family:"freight-display-pro",sans-serif;color:#9b9b9b;font-size:.75rem}
+.wp-caption .wp-caption-text a{padding-bottom:0}.wp-caption .wp-caption-text,.gallery-caption{margin:0;padding:.5rem 0 2rem}
+.textwidget img{margin:1rem 0}.bypostauthor{background:inherit}.size-auto,.size-full,.size-large,.size-medium,.size-thumbnail{max-width:100%;height:auto}
 .page-nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:0;margin-right:0;position:absolute;bottom:0;width:100%;left:0}
 .page-nav--single{bottom:-200px}.page-nav--single .nav-block{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%}
 .nav-block{z-index:999;position:relative;min-height:1px;padding-left:0;padding-right:0;-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%}

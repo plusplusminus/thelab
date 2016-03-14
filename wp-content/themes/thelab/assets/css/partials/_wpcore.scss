@@ -128,8 +128,11 @@ a img.aligncenter {
     }
     .wp-caption-text{
         font-family: $font-family-serif;
-        color: $gray-lighter;
+        color: $gray;
         font-size: $font-size-sm;
+        a{
+            padding-bottom: 0;
+        }
     }
 }
 

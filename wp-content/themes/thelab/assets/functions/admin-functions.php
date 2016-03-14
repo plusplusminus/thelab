@@ -658,7 +658,7 @@ class ckCustomPostTypes {
 		
 
 		// Repeating Group For Our Center
-		function cmb_id_our_center($field) { global $post; return ($post->ID == 150) ; }
+		function cmb_id_our_center($field) { global $post; return ($post->ID == 200) ; }
 		
 		// Collapse Group For Education
 		function cmb_id_education($field) { global $post; return ($post->ID == 78 || $post->ID == 80 || $post->ID == 123) ; }
