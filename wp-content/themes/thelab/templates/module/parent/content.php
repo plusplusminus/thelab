@@ -52,8 +52,13 @@
 						<?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
 							
 							<?php $child_page_intro = get_post_meta($post->ID,'_thelab_child_page_intro',1); ?>
+							
+							<!-- Education -->
 							<?php $collapse_heading = get_post_meta($post->ID,'_thelab_collapse_heading',1); ?>
 							<?php $entries = get_post_meta( get_the_ID(), '_thelab_child_repeat_group', true );?>
+							<!-- Our Center -->
+							<?php $center_heading = get_post_meta($post->ID,'_thelab_center_section_heading',1); ?>
+							<?php $entries_center = get_post_meta( get_the_ID(), '_thelab_center_repeat_group', true );?>
 
 								
 							<div id="section-<?php the_ID(); ?>" class="page-content__section">
@@ -105,6 +110,65 @@
 										<?php } ?> <!-- end foreach-->
 
 									</div><!--/#accordion-->
+								
+								<?php } ?><!-- endif !empty $entries -->
+
+								<?php if (!empty($entries_center)) { ?>
+								
+									<h3><?php echo $center_heading; ?></h3>
+									
+									<div class="row">
+										<?php $count = 0; ?>
+										<?php foreach ( (array) $entries_center as $key => $entry ) {
+											$count++;
+										    $center_name = $center_description = $center_role = $center_link = $center_email = $center_phone = $center_image = '';
+
+										    if ( isset( $entry['_thelab_center_name'] ) )
+										        $center_name = esc_html( $entry['_thelab_center_name'] );
+
+										    if ( isset( $entry['_thelab_center_link'] ) )
+										        $center_link = esc_html( $entry['_thelab_center_link'] );
+
+										    if ( isset( $entry['_thelab_center_role'] ) )
+										        $center_role = esc_html( $entry['_thelab_center_role'] );
+
+										    if ( isset( $entry['_thelab_center_description'] ) )
+										        $center_description = $entry['_thelab_center_description'];
+
+										    if ( isset( $entry['_thelab_center_phone'] ) )
+										        $center_phone = $entry['_thelab_center_phone'];
+
+										    if ( isset( $entry['_thelab_center_email'] ) )
+										        $center_email = $entry['_thelab_center_email'];
+
+										    if ( isset( $entry['_thelab_center_image_id'] ) )
+										    	$center_image = wp_get_attachment_image( $entry['_thelab_center_image_id'], 'share-pick', null, array(
+										        'class' => 'center_thumb',
+										    ) );
+										    ?>
+
+
+											<div class="col-md-6 panel-center">
+												<div class="panel" role="tab" id="heading-<?php the_ID(); ?>-<?php echo $count; ?>">
+													<?php echo $center_image; ?>
+													<h5 class="center-name">
+														<?php if (!empty($center_link)): ?>
+															<a href="<?php echo $center_link?>";"><?php echo $center_name; ?></a>
+															<span class="center-role"><?php echo $center_role; ?></span>
+														<?php else: ?>
+															<?php echo $center_name; ?>
+															<span class="center-role"><?php echo $center_role; ?></span>
+														<?php endif ?>
+													</h5>
+													<p class="center-description small"><?php echo $center_description; ?></p>
+													<p class="center-details small">Office: <a href="tel://<?php echo $center_phone; ?>"><?php echo $center_phone; ?></a><br>
+													Email: <a href="mailto:<?php echo $center_email; ?>"><?php echo $center_email; ?></a></p>
+												</div>
+											</div><!--/.col-->
+											
+										<?php } ?> <!-- end foreach-->
+
+									</div><!--/.row-->
 								
 								<?php } ?><!-- endif !empty $entries -->
 								

@@ -208,3 +208,36 @@ h4{
 		}
 	}
 }
+
+.panel-center{
+	.panel{
+		border-bottom-color: transparent;
+	}
+	.center_thumb{
+		max-width: 50%;
+		height: auto;
+	}
+	.center-name{
+		a{
+			color: $default;
+			transition: 0.3s;
+			&:hover{
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+		.center-role{
+			display: block;
+			font-size: $font-size-base;
+		}
+	}
+	.center-description{
+		font-weight: 100;
+		margin-bottom: 1rem;
+	}
+	.center-details{
+		a{
+			font-weight: 100;
+		}
+	}
+}

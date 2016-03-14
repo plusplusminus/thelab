@@ -527,19 +527,21 @@ class ckCustomPostTypes {
 			'name'       => __( 'Collapse Heading', 'cmb2' ),
 			'id'         => $prefix . 'collapse_heading',
 			'type'       => 'text',
+			'show_on_cb'  => 'cmb_id_education',
 		) );
 
 		$child_page_group_meta = $child_page_meta->add_field( array(
 		    'id'          => $prefix . 'child_repeat_group',
 		    'type'        => 'group',
 		    'description' => __( 'Collapsable Content', 'cmb2' ),
+		    'show_on_cb'  => 'cmb_id_education',
 		    // 'repeatable'  => false, // use false if you want non-repeatable group
 		    'options'     => array(
 		        'group_title'   => __( 'Collapse {#}', 'cmb2' ), // since version 1.1.4, {#} gets replaced by row number
 		        'add_button'    => __( 'Add Another Collapsable Section', 'cmb2' ),
 		        'remove_button' => __( 'Remove Collapse', 'cmb2' ),
 		        'sortable'      => true, // beta
-		        // 'closed'     => true, // true to have the groups closed by default
+		        'closed'     => true, // true to have the groups closed by default
 		    ),
 		) );
 
@@ -573,6 +575,79 @@ class ckCustomPostTypes {
 	 		'type'       => 'text',
 	 	) );
 
+	 	$center_page_meta = new_cmb2_box( array(
+			'id'            => $prefix . 'center_page_meta',
+			'title'         => __( 'Our Center Page Options', 'cmb2' ),
+			'object_types'  => array( 'page' ), // Post type
+			'context'       => 'normal',
+			'show_on_cb'    => 'cmb_id_our_center',
+			'priority'      => 'low',
+			'show_names'    => true,
+		) );
+
+		$center_page_meta->add_field( array(
+			'name'       => __( 'Section Heading', 'cmb2' ),
+			'id'         => $prefix . 'center_section_heading',
+			'type'       => 'text',
+			'show_on_cb'  => 'cmb_id_our_center',
+		) );
+
+		$center_page_group_meta = $center_page_meta->add_field( array(
+		    'id'          => $prefix . 'center_repeat_group',
+		    'type'        => 'group',
+		    'show_on_cb'  => 'cmb_id_our_center',
+		    'description' => __( 'Center Administrators', 'cmb2' ),
+		    // 'repeatable'  => false, // use false if you want non-repeatable group
+		    'options'     => array(
+		        'group_title'   => __( 'Administrator {#}', 'cmb2' ), // since version 1.1.4, {#} gets replaced by row number
+		        'add_button'    => __( 'Add Another Administrator', 'cmb2' ),
+		        'remove_button' => __( 'Remove Administrator', 'cmb2' ),
+		        'sortable'      => true, // beta
+		        // 'closed'     => true, // true to have the groups closed by default
+		    ),
+		) );
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Administrator Name', 'cmb2' ),
+	 		'id'         => $prefix . 'center_name',
+	 		'type'       => 'text',
+	 	) );
+
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Name Link', 'cmb2' ),
+	 		'id'         => $prefix . 'center_link',
+	 		'type'       => 'text',
+	 		'description'=> 'URL to where the name should link'
+	 	) );
+	 	
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Role', 'cmb2' ),
+	 		'id'         => $prefix . 'center_role',
+	 		'type'       => 'text',
+	 	) );
+
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Description', 'cmb2' ),
+	 		'id'         => $prefix . 'center_description',
+	 		'type'       => 'textarea',
+	 	) );
+
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Phone', 'cmb2' ),
+	 		'id'         => $prefix . 'center_phone',
+	 		'type'       => 'text',
+	 		'description'=> 'format: 1-555-555-5555',
+	 	) );
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Email', 'cmb2' ),
+	 		'id'         => $prefix . 'center_email',
+	 		'type'       => 'text',
+	 	) );
+	 	$center_page_meta->add_group_field( $center_page_group_meta, array(
+	 		'name'       => __( 'Photo', 'cmb2' ),
+	 		'id'         => $prefix . 'center_image',
+	 		'type'       => 'file',
+	 	) );
+
 		//---
 		// CMB2 Conditional Functions
 		//---
@@ -581,6 +656,13 @@ class ckCustomPostTypes {
 		function cmb_id_home($field) { global $post; return ($post->ID == 50) ; }
 		function cmb_id_not_home($field) { global $post; return ($post->ID != 50) ; }
 		
+
+		// Repeating Group For Our Center
+		function cmb_id_our_center($field) { global $post; return ($post->ID == 150) ; }
+		
+		// Collapse Group For Education
+		function cmb_id_education($field) { global $post; return ($post->ID == 78 || $post->ID == 80 || $post->ID == 123) ; }
+
 	} 
 }
 

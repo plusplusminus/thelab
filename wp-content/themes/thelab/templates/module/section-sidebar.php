@@ -49,6 +49,7 @@
     	<a href="<?php bloginfo('url');?>/engage" class="nav-link">Engage</a>
     	<ul class="sub-nav">
     	  <li class="nav-item nav-item--sub"><a href="#section-89" class="nav-link">Our Connections</a></li>
+          <li class="nav-item nav-item--sub"><a href="#section-200" class="nav-link">Our Center</a></li>
     	  <li class="nav-item nav-item--sub"><a href="#section-92" class="nav-link">Volunteer</a></li>
     	</ul>
     </li>
