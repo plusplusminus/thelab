@@ -28,6 +28,7 @@
       	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/examine#section-68">Our Explorers</a></li>
       	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/examine#section-70">Neuromodulation Research</a></li>
       	  <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/examine#section-72">Clinical Research</a></li>
+          <li class="nav-item--sub"><a href="<?php bloginfo('url');?>/examine#section-210">Ongoing Research</a></li>
       	</ul>
       </li>
 

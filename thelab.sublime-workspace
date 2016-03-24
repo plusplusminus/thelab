@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-bottom"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"desc",
+				"desc"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
 			],
 			[
 				"pa",
@@ -38,14 +54,6 @@
 			[
 				"fon-",
 				"font-weight"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"hid",
@@ -90,10 +98,6 @@
 			[
 				"border-r",
 				"border-right"
-			],
-			[
-				"font-s",
-				"font-size-lg"
 			],
 			[
 				"bo",
@@ -510,10 +514,6 @@
 			[
 				"padd-lar",
 				"padding-large-horizontal"
-			],
-			[
-				"padding-la",
-				"padding-large-vertical"
 			]
 		]
 	},
@@ -523,7 +523,15 @@
 			"file": "wp-content/themes/thelab/assets/css/module/page/_pagecontent.scss",
 			"settings":
 			{
-				"buffer_size": 3290,
+				"buffer_size": 3730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/thelab/assets/css/partials/_wpcore.scss",
+			"settings":
+			{
+				"buffer_size": 3609,
 				"line_ending": "Unix"
 			}
 		},
@@ -584,26 +592,10 @@
 			}
 		},
 		{
-			"file": "wp-content/themes/thelab/templates/module/parent/content-footer.php",
+			"file": "wp-content/themes/thelab/templates/module/parent/content.php",
 			"settings":
 			{
-				"buffer_size": 2392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/thelab/templates/module/page/section-hero.php",
-			"settings":
-			{
-				"buffer_size": 416,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/thelab/header.php",
-			"settings":
-			{
-				"buffer_size": 6022,
+				"buffer_size": 8321,
 				"line_ending": "Unix"
 			}
 		},
@@ -619,7 +611,7 @@
 			"file": "wp-content/themes/thelab/assets/functions/admin-functions.php",
 			"settings":
 			{
-				"buffer_size": 20364,
+				"buffer_size": 23572,
 				"line_ending": "Unix"
 			}
 		},
@@ -709,7 +701,6 @@
 		"/Users/iaanvn/Sites/thelab/wp-content/themes",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets",
-		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/bower_components/tether",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/page",
@@ -717,6 +708,7 @@
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/page",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/parent",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/partials",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module",
@@ -726,6 +718,11 @@
 	],
 	"file_history":
 	[
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/header.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/page/section-hero.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/parent/content-footer.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar.php",
+		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar-home.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar-single.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/page.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/parent/_hero.scss",
@@ -742,9 +739,7 @@
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_sidebar.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/_loader.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/parent/_hero.scss",
-		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar-home.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/footer.php",
-		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/header.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/_pagenav.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/layout/page/_general.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions/thelab-functions.php",
@@ -755,7 +750,6 @@
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/gulpfile.js",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/library/bones.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/custom.js",
-		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-sidebar.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/template-child.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/module/page/_pagecontent.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/functions/admin-functions.php",
@@ -765,7 +759,6 @@
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/vendor/page-intro.scss",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/section-pagenav-inline.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/js/vendors.js",
-		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/page/section-hero.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/templates/module/child/content.php",
 		"/Users/iaanvn/Sites/thelab/wp-config.php",
 		"/Users/iaanvn/Sites/thelab/wp-content/themes/thelab/assets/css/vendor/fullpage.scss",
@@ -852,8 +845,7 @@
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-kids-store-type/content-feed.php",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/archive-kids-store-type/archive-header.php",
 		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/taxonomy-kids-store-type.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/kids-news/content-feed.php",
-		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/kids-news/content.php"
+		"/Users/iaanvn/Sites/jlfoundation/wp-content/themes/jlfoundation/templates/module/kids-news/content-feed.php"
 	],
 	"find":
 	{
@@ -1257,15 +1249,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3290,
+						"buffer_size": 3730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								3370,
+								3370
 							]
 						],
 						"settings":
@@ -1275,14 +1267,45 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 3421.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "wp-content/themes/thelab/assets/css/partials/_wpcore.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "wp-content/themes/thelab/assets/css/module/parent/_hero.scss",
 					"semi_transient": false,
 					"settings":
@@ -1294,8 +1317,8 @@
 						"selection":
 						[
 							[
-								50,
-								50
+								431,
+								431
 							]
 						],
 						"settings":
@@ -1308,11 +1331,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "wp-content/themes/thelab/assets/css/module/_sidebar.scss",
 					"semi_transient": false,
 					"settings":
@@ -1338,11 +1361,11 @@
 						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "wp-content/themes/thelab/templates/module/section-pagehead_default.php",
 					"semi_transient": false,
 					"settings":
@@ -1367,17 +1390,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "wp-content/themes/thelab/assets/css/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -1402,11 +1425,11 @@
 						"translation.y": 509.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "wp-content/themes/thelab/assets/css/utilities/_extends.scss",
 					"semi_transient": false,
 					"settings":
@@ -1433,11 +1456,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "wp-content/themes/thelab/assets/css/fonts/_thelab.scss",
 					"semi_transient": false,
 					"settings":
@@ -1449,8 +1472,8 @@
 						"selection":
 						[
 							[
-								1764,
-								1769
+								1517,
+								1517
 							]
 						],
 						"settings":
@@ -1461,14 +1484,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1057.0,
+						"translation.y": 1028.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "wp-content/themes/thelab/assets/css/partials/_variables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1480,8 +1503,8 @@
 						"selection":
 						[
 							[
-								647,
-								647
+								1052,
+								1052
 							]
 						],
 						"settings":
@@ -1490,10 +1513,10 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 215.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1503,50 +1526,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 8,
-					"file": "wp-content/themes/thelab/templates/module/parent/content-footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2319,
-								2319
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 560.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 9,
-					"file": "wp-content/themes/thelab/templates/module/page/section-hero.php",
+					"file": "wp-content/themes/thelab/templates/module/parent/content.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 416,
+						"buffer_size": 8321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								406,
-								406
+								5680,
+								5680
 							]
 						],
 						"settings":
@@ -1556,50 +1549,20 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "wp-content/themes/thelab/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6022,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5920,
-								5920
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2250.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "wp-content/themes/thelab/gulpfile.js",
 					"semi_transient": false,
 					"settings":
@@ -1625,24 +1588,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 11,
 					"file": "wp-content/themes/thelab/assets/functions/admin-functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20364,
+						"buffer_size": 23572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								403,
-								403
+								23539,
+								23539
 							]
 						],
 						"settings":
@@ -1652,14 +1615,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 64.0,
+						"translation.y": 95322.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 12,
 					"file": "wp-content/themes/thelab/assets/functions/thelab-functions.php",
 					"semi_transient": false,
 					"settings":
@@ -1685,11 +1648,11 @@
 						"translation.y": 692.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 13,
 					"file": "wp-content/themes/thelab/functions.php",
 					"semi_transient": false,
 					"settings":
@@ -1701,8 +1664,8 @@
 						"selection":
 						[
 							[
-								6044,
-								6044
+								3207,
+								3209
 							]
 						],
 						"settings":
@@ -1713,14 +1676,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3129.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 14,
 					"file": "wp-content/themes/thelab/assets/js/custom/custom.js",
 					"semi_transient": false,
 					"settings":
@@ -1793,13 +1756,13 @@
 		"cols":
 		[
 			0.0,
-			0.628968246415,
+			0.71265633164,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.169524336283,
+			0.638167315735,
 			1.0
 		]
 	},
@@ -1926,7 +1889,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1934,7 +1897,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 239.0,
+	"side_bar_width": 542.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -33,6 +33,7 @@
     	  <li class="nav-item nav-item--sub"><a href="#section-68" class="nav-link">Our Explorers</a></li>
     	  <li class="nav-item nav-item--sub"><a href="#section-70" class="nav-link">Neuromodulation Research</a></li>
     	  <li class="nav-item nav-item--sub"><a href="#section-72" class="nav-link">Clinical Research</a></li>
+          <li class="nav-item nav-item--sub"><a href="#section-210" class="nav-link">Ongoing Research</a></li>
     	</ul>
     </li>
 
