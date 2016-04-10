@@ -100,7 +100,7 @@
 												</div>
 												
 												<div id="collapse-<?php the_ID(); ?>-<?php echo $count;?>" class="panel-collapse collapse">
-													<?php echo wpautop($collapse_content); ?>
+													<?php echo $collapse_content; ?>
 													<?php if (!empty($collapse_cta_url)) { ?>
 														<a class="panel-collapse__link" href="<?php echo $collapse_cta_url;?>"><?php echo $collapse_cta_label; ?></a><i class="icon icon-arrow-long-right"></i>
 													<?php } else { ?>

@@ -96,3 +96,6 @@ wp-content/mysql.sql
 *.asf
 *.wmv
 *.avi
+wp-content/themes/thelab.zip
+
+wp-content/themes/thelab/templates/module/parent/content-footer.php.zip

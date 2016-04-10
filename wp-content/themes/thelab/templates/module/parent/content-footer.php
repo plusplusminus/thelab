@@ -12,13 +12,13 @@
 			<?php $thelab_theme->footer_menu(); ?>
 			<ul class="nav-items">
 				<li class="nav-items__item">
-					<a href="http://clients.plusplusminus.co.za/thelab/site/engage" class="nav-items__item--link">Contact Us</a>
+					<a href="<?php bloginfo('url'); ?>/engage" class="nav-items__item--link">Contact Us</a>
 				</li>
 				<li class="nav-items__item">
 					<a href="http://clinicaltrials.gov" target="_blank" class="nav-items__item--link">Ongoing Clinical Trails</a>
 				</li>
 				<li class="nav-items__item">
-					<a href="http://clients.plusplusminus.co.za/thelab/site/privacy-policy" class="nav-items__item--link">Privacy Policy</a>
+					<a href="<?php bloginfo('url'); ?>/privacy-policy" class="nav-items__item--link">Privacy Policy</a>
 				</li>
 			</ul>
 			<p>&copy; <?php echo date("Y") ?> <?php bloginfo('sitename');?></p>
